@@ -1,0 +1,5 @@
+scenario_id,scenario_name,allowed_scenario_classes,network_min_fill_rate,network_min_critical_fill_rate,max_dealers_changed_pct,max_inventory_investment,allow_overtime,max_pdc_overtime_pct,max_option_complexity,solver_time_limit_sec,mip_relative_gap
+baseline,Current policy baseline,baseline,0.95,0.985,0.0,0,1,0.5,0,60,0.0001
+marginal,Daily delivery labor optimization,"baseline,marginal",0.95,0.985,1.0,0,1,0.5,1,60,0.0001
+significant,Frequency reduction with selective inventory,"baseline,marginal,significant",0.95,0.985,1.0,350000,1,0.5,3,60,0.0001
+structural,Dealer-group consolidation,"baseline,marginal,significant,structural",0.945,0.98,1.0,750000,1,0.5,5,60,0.0001

@@ -1,0 +1,4 @@
+parameter,value,description
+working_days_per_year,260.0,Business days used for demand-rate conversion
+weeks_per_year,52.0,Weeks used for annual delivery frequency
+inventory_carrying_rate,0.22,Annual carrying cost as a percent of incremental inventory value

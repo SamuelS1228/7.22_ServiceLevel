@@ -1,0 +1,8 @@
+option_id,option_name,scenario_class,deliveries_per_week,transport_mode,inventory_uplift_pct,transit_days,shipment_fixed_labor_minutes,line_labor_minutes,consolidation_line_factor,annual_implementation_cost_per_dealer,implementation_complexity_score,enabled
+CURRENT_DAILY,Current daily DDS,baseline,5,DDS,0.0,1.0,24,2.15,1.0,0,0.0,1
+DAILY_CUTOFF,Daily DDS with earlier cutoff,marginal,5,DDS,0.0,1.0,16,2.0,0.98,1200,1.0,1
+THREE_X_DDS,Three deliveries per week via DDS,significant,3,DDS,0.0,1.2,22,1.95,0.94,2200,2.0,1
+THREE_X_DDS_INV15,Three DDS deliveries with 15% inventory uplift,significant,3,DDS,0.15,1.2,22,1.95,0.94,2500,2.5,1
+TWO_X_LTL,Two deliveries per week via LTL,significant,2,LTL,0.0,2.0,28,1.9,0.9,3500,3.0,1
+TWO_X_LTL_INV25,Two LTL deliveries with 25% inventory uplift,significant,2,LTL,0.25,2.0,28,1.9,0.9,4000,3.0,1
+WEEKLY_CONSOLIDATED_INV50,Weekly consolidated LTL with 50% inventory uplift,structural,1,LTL,0.5,2.5,35,1.8,0.82,7000,5.0,1
